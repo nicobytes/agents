@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Nicolas Molina Monroy <hi@nicobytes.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langgraph = "^0.2.60"
+python-dotenv = "^1.0.1"
+langgraph-cli = {extras = ["inmem"], version = "^0.1.65"}
+fastapi = {extras = ["standard"], version = "^0.115.6"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

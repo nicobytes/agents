@@ -1,0 +1,7 @@
+name: agents
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - poetry
+prefix: /home/nicobytes/anaconda3/envs/agents
