@@ -11,6 +11,8 @@ langgraph = "^0.2.60"
 python-dotenv = "^1.0.1"
 langgraph-cli = {extras = ["inmem"], version = "^0.1.65"}
 fastapi = {extras = ["standard"], version = "^0.115.6"}
+langchain-openai = "^0.3.0"
+ipykernel = "^6.29.5"
 
 
 [build-system]

@@ -11,3 +11,13 @@ conda env export --from-history > environment.yml
 ```bash
 conda env create -f environment.yml
 ```
+
+### Run agent
+```bash
+langgraph dev
+```
+
+### Run fastapi server
+```bash
+fastapi dev app/api.py
+```
