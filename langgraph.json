@@ -2,7 +2,8 @@
     "dependencies": ["."],
     "graphs": {
         "nicobot": "./app/agent.py:graph",
-        "llm": "./app/llm.py:graph"
+        "llm": "./app/llm.py:graph",
+        "tool": "./app/tool.py:graph"
     },
     "python_version": "3.11",
     "env": ".env"
